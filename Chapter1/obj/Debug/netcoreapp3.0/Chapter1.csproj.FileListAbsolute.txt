@@ -1,0 +1,13 @@
+C:\Users\jon\source\repos\machine learning\Chapter1\bin\Debug\netcoreapp3.0\Chapter1.exe
+C:\Users\jon\source\repos\machine learning\Chapter1\bin\Debug\netcoreapp3.0\Chapter1.deps.json
+C:\Users\jon\source\repos\machine learning\Chapter1\bin\Debug\netcoreapp3.0\Chapter1.runtimeconfig.json
+C:\Users\jon\source\repos\machine learning\Chapter1\bin\Debug\netcoreapp3.0\Chapter1.runtimeconfig.dev.json
+C:\Users\jon\source\repos\machine learning\Chapter1\bin\Debug\netcoreapp3.0\Chapter1.dll
+C:\Users\jon\source\repos\machine learning\Chapter1\bin\Debug\netcoreapp3.0\Chapter1.pdb
+C:\Users\jon\source\repos\machine learning\Chapter1\obj\Debug\netcoreapp3.0\Chapter1.csprojAssemblyReference.cache
+C:\Users\jon\source\repos\machine learning\Chapter1\obj\Debug\netcoreapp3.0\Chapter1.AssemblyInfoInputs.cache
+C:\Users\jon\source\repos\machine learning\Chapter1\obj\Debug\netcoreapp3.0\Chapter1.AssemblyInfo.cs
+C:\Users\jon\source\repos\machine learning\Chapter1\obj\Debug\netcoreapp3.0\Chapter1.dll
+C:\Users\jon\source\repos\machine learning\Chapter1\obj\Debug\netcoreapp3.0\Chapter1.pdb
+C:\Users\jon\source\repos\machine learning\Chapter1\bin\Debug\netcoreapp3.0\MathNet.Numerics.dll
+C:\Users\jon\source\repos\machine learning\Chapter1\obj\Debug\netcoreapp3.0\Chapter1.csproj.CopyComplete

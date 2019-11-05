@@ -1,0 +1,13 @@
+C:\Users\jon\source\repos\machine learning\firstPass_Core\bin\Debug\netcoreapp3.0\firstPass_Core.exe
+C:\Users\jon\source\repos\machine learning\firstPass_Core\bin\Debug\netcoreapp3.0\firstPass_Core.deps.json
+C:\Users\jon\source\repos\machine learning\firstPass_Core\bin\Debug\netcoreapp3.0\firstPass_Core.runtimeconfig.json
+C:\Users\jon\source\repos\machine learning\firstPass_Core\bin\Debug\netcoreapp3.0\firstPass_Core.runtimeconfig.dev.json
+C:\Users\jon\source\repos\machine learning\firstPass_Core\bin\Debug\netcoreapp3.0\firstPass_Core.dll
+C:\Users\jon\source\repos\machine learning\firstPass_Core\bin\Debug\netcoreapp3.0\firstPass_Core.pdb
+C:\Users\jon\source\repos\machine learning\firstPass_Core\obj\Debug\netcoreapp3.0\firstPass_Core.csprojAssemblyReference.cache
+C:\Users\jon\source\repos\machine learning\firstPass_Core\obj\Debug\netcoreapp3.0\firstPass_Core.AssemblyInfoInputs.cache
+C:\Users\jon\source\repos\machine learning\firstPass_Core\obj\Debug\netcoreapp3.0\firstPass_Core.AssemblyInfo.cs
+C:\Users\jon\source\repos\machine learning\firstPass_Core\obj\Debug\netcoreapp3.0\firstPass_Core.dll
+C:\Users\jon\source\repos\machine learning\firstPass_Core\obj\Debug\netcoreapp3.0\firstPass_Core.pdb
+C:\Users\jon\source\repos\machine learning\firstPass_Core\bin\Debug\netcoreapp3.0\MathNet.Numerics.dll
+C:\Users\jon\source\repos\machine learning\firstPass_Core\obj\Debug\netcoreapp3.0\firstPass_Core.csproj.CopyComplete
