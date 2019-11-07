@@ -25,3 +25,6 @@ C:\Users\jon\source\repos\machine learning\Chapter1_F\bin\Debug\netcoreapp3.0\Ch
 C:\Users\jon\source\repos\machine learning\Chapter1_F\bin\Debug\netcoreapp3.0\MathNet.Numerics.dll
 C:\Users\jon\source\repos\machine learning\Chapter1_F\obj\Debug\netcoreapp3.0\Chapter1_F.dll
 C:\Users\jon\source\repos\machine learning\Chapter1_F\obj\Debug\netcoreapp3.0\Chapter1_F.pdb
+C:\Users\jon\source\repos\machine learning\Chapter1_F\bin\Debug\netcoreapp3.0\Google.DataTable.Net.Wrapper.dll
+C:\Users\jon\source\repos\machine learning\Chapter1_F\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\jon\source\repos\machine learning\Chapter1_F\bin\Debug\netcoreapp3.0\XPlot.GoogleCharts.dll

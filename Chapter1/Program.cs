@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Linq;
 using System.Diagnostics;
 using MathNet.Numerics.LinearAlgebra;
+using System.Collections.Generic;
 
 namespace Chapter1 {
     class Program {
@@ -36,6 +38,8 @@ namespace Chapter1 {
             //* STEP 1: pick a random value of theta
             Matrix<double> theta = Matrix<double>.Build.Random(3, 1) * 0.01d;
 
+            theta = Matrix<double>.Build.Dense(3, 1, new double[] { -0.0019, 0.0089, -0.0076 });
+
             Debug.WriteLine("Random Initial Guess for Theta:");
             Debug.WriteLine(theta.ToString());
             Debug.WriteLine("---------------------------------------");
@@ -59,7 +63,7 @@ namespace Chapter1 {
             return theta;
         }
 
-        private static double ComputeEmpiricalRisk(Matrix<double> data, Matrix<double> theta) {
+        private static double ComputeEmpiricalRisk(in Matrix<double> data, in Matrix<double> theta) {
             int     length  = Math.Max(data.ColumnCount, data.RowCount);
             double  total   = 0d;
 
@@ -80,16 +84,15 @@ namespace Chapter1 {
             double[]        predictedDJI    = new double[length],
                             observedDJI     = new double[length];
 
-
             for (int index = 2; index < length; index++) {
                 predictedDJI[index] = (theta[0, 0] * data[0, index - 1]) + (theta[1, 0] * data[0, index - 2]) + theta[2, 0];
                 observedDJI[index]  = data[0, index];
 
                 double          errorSignal = observedDJI[index] - predictedDJI[index];
                 Matrix<double>  dcdTheta    = Matrix<double>.Build.Dense(3, 1, new double[] {
-                    -2 * (observedDJI[index] - predictedDJI[index]) * data[0, index - 1],
-                    -2 * (observedDJI[index] - predictedDJI[index]) * data[0, index - 2],
-                    -2 * (observedDJI[index] - predictedDJI[index])
+                    -2 * errorSignal * data[0, index - 1],
+                    -2 * errorSignal * data[0, index - 2],
+                    -2 * errorSignal
                 });
 
                 total += dcdTheta;
