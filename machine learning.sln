@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter1", "Chapter1\Chapte
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Chapter1_F", "Chapter1_F\Chapter1_F.fsproj", "{9604AD3C-48EB-4847-860F-2D7FA06E1257}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neural Network", "Neural Network\Neural Network.csproj", "{CF255371-2948-4DC2-9D90-F735603DAE38}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{9604AD3C-48EB-4847-860F-2D7FA06E1257}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9604AD3C-48EB-4847-860F-2D7FA06E1257}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9604AD3C-48EB-4847-860F-2D7FA06E1257}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF255371-2948-4DC2-9D90-F735603DAE38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF255371-2948-4DC2-9D90-F735603DAE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF255371-2948-4DC2-9D90-F735603DAE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF255371-2948-4DC2-9D90-F735603DAE38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

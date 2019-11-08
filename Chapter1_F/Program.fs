@@ -1,4 +1,8 @@
-﻿open System
+﻿//* ****************************************************************************************************
+//* Ported from Matlab code by Dr. Richard Golden for the Intelligent Systems Analysis Fall 2019 class *
+//* ****************************************************************************************************
+
+open System
 open MathNet.Numerics.LinearAlgebra
 open XPlot.GoogleCharts
 
@@ -90,8 +94,7 @@ let main argv =
     let normalizedTrainingData  = trainingData / normalizationFactor
     let normalizedTestData      = testData / normalizationFactor
 
-    let theta = (GradientDescent normalizedTrainingData normalizedTestData learningRate trials)
-
-    //printfn "%A" trainingData
+    GradientDescent normalizedTrainingData normalizedTestData learningRate trials
+    |> ignore
 
     0 // return an integer exit code

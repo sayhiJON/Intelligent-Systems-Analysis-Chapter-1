@@ -1,4 +1,8 @@
-﻿using System;
+﻿//******************************************************************************************************
+//* Ported from Matlab code by Dr. Richard Golden for the Intelligent Systems Analysis Fall 2019 class *
+//******************************************************************************************************
+
+using System;
 using System.Linq;
 using System.Diagnostics;
 using MathNet.Numerics.LinearAlgebra;
