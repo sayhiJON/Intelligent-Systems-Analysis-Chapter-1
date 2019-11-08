@@ -42,8 +42,6 @@ namespace Chapter1 {
             //* STEP 1: pick a random value of theta
             Matrix<double> theta = Matrix<double>.Build.Random(3, 1) * 0.01d;
 
-            theta = Matrix<double>.Build.Dense(3, 1, new double[] { -0.0019, 0.0089, -0.0076 });
-
             Debug.WriteLine("Random Initial Guess for Theta:");
             Debug.WriteLine(theta.ToString());
             Debug.WriteLine("---------------------------------------");
